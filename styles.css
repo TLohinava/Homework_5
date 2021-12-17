@@ -22,16 +22,10 @@ p::first-letter {
   font-weight: 900;
 }
 
-.frame {
-  width: 950px;
-  margin: auto;
-  padding: 100px 125px;
-  position: relative;
-}
-
 .container {
-  width: 800px;
-  margin: 0px auto -70px auto;
+  position:relative;
+  width: 50%;
+  margin: 125px auto;
   padding: 20px 50px;
   border-radius: 3px;
   border-style: solid solid dashed dashed;
@@ -98,4 +92,5 @@ p::first-letter {
  overflow: visible;
  top:0px;
  right:0px;
+ transform: translate(50%, -50%);
 }
