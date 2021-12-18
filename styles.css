@@ -3,29 +3,26 @@ h1 {
  font-size: 40px;
  color: #000000;
  text-align: center;
- font-weight: 900;
  text-decoration: double underline;
 }
 
 h2 {
   text-decoration: underline;
-  font-weight: 900;
   padding: 10px 0px ;
-}
-
-h3 {
- font-weight: 900;
 }
 
 p::first-letter {
   font-size: 24px;
+}
+
+h1, h2, h3, p::first-letter {
   font-weight: 900;
 }
 
 .container {
   position:relative;
   width: 50%;
-  margin: 125px auto;
+  margin: 125px auto 25px auto;
   padding: 20px 50px;
   border-radius: 3px;
   border-style: solid solid dashed dashed;
